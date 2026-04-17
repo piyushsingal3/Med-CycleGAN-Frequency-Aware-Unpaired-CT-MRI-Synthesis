@@ -1,5 +1,4 @@
 # CycleGAN — MRI ↔ CT Medical Image Translation
-**Based on the IITK Consulting Group CycleGAN Documentation (Summer 2024)**
 
 ---
 
@@ -59,7 +58,7 @@ cyclegan_mri_ct/
 ├── utils.py          ← ReplayBuffer, LR scheduler, checkpoints
 ├── requirements.txt  ← Python dependencies
 │
-├── data/             ← Dataset (created by prepare_data.py)
+├── data/             
 │   ├── trainA/       ← MRI training images
 │   ├── trainB/       ← CT  training images
 │   ├── testA/        ← MRI test images
@@ -308,5 +307,4 @@ Image('outputs/samples/epoch_050.png')
 
 ---
 
-*Architecture based on: IITK Consulting Group CycleGAN Documentation, Summer 2024*
 *Original paper: Zhu et al., "Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks", ICCV 2017*
